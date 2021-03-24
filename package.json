@@ -9,11 +9,13 @@
     "build": "gulp build"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
+    "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.4.5",
-    "@babel/register": "^7.4.4",
+    "@babel/register": "^7.13.8",
+    "babelify": "^10.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-bro": "^2.0.0",
     "gulp-csso": "^4.0.1",
     "gulp-image": "^6.2.1",
     "gulp-pug": "^4.0.1",
@@ -22,7 +24,8 @@
     "node-sass": "^5.0.0"
   },
   "dependencies": {
-    "del": "^6.0.0"
+    "del": "^6.0.0",
+    "uglifyify": "^5.0.2"
   },
   "browserslist": [
     "last 2 versions"
